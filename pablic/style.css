@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background: rgba(91, 101, 28, 0.469);
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 11px;
+    background-color: rgba(149, 171, 54, 0.653);
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+    margin: 0 0 65px 0;
+}
+.card{
+    box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.483);
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    align-items: center;
+}   
+nav li {
+    margin-right: 15px;
+    list-style: none;
+}
+nav li a {
+    color: wheat;
+    text-decoration: none;
+}
+.container{
+    width: 40vw;
+}
